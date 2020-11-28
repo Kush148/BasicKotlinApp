@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/item1Fragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Item2" />
+    <item
+        android:id="@+id/item2Fragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Item3" />
+    <item
+        android:id="@+id/item3Fragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Item4" />
+    <item
+        android:id="@+id/item4Fragment"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="item5" />
+
+</menu>
