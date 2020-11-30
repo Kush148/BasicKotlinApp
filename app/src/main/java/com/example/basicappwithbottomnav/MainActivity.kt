@@ -1,12 +1,12 @@
 package com.example.basicappwithbottomnav
 
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
 import kotlinx.android.synthetic.main.activity_main.*
 
-import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 
 class MainActivity : AppCompatActivity() {
@@ -20,7 +20,5 @@ class MainActivity : AppCompatActivity() {
         btmNav.setupWithNavController(navController)
 
         NavigationUI.setupWithNavController(btmNav,navController)
-
-
     }
 }
